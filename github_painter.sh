@@ -1,10 +1,5 @@
 #!/bin/bash
 echo 'GENERATING ART...'
-mkdir github_painter
-cd github_painter
-git init
-git remote add origin https://github.com/mathiaworms/up-up-down-down.git
-git pull origin main
 touch foobar.txt
 echo 'Tue Jan 14 2025 00:00:00 GMT+0100 (heure normale d’Europe centrale) -> (0)' >> foobar.txt
 git add foobar.txt
